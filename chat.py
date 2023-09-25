@@ -1,7 +1,10 @@
+from .round import Round
+
 calss Chat(object):
 
     def __init__(self):
         self.cotent = []
+        self.round = r
 
     def update_chat(self, msg):
         self.content.append(msg)
